@@ -44,6 +44,7 @@ DELETE FROM pet WHERE id IN (
     WHERE
     person.id = person_pet.person_id AND
     person.first_name = "Zed"
+    );
 
 -- Checking out the remaining pets. Where'd Zed's pets go?
 SELECT * FROM pet;
